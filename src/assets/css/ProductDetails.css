@@ -1,0 +1,4 @@
+.image-gallery-image {
+    object-fit: cover;
+    aspect-ratio : 3 / 4;
+}

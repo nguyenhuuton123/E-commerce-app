@@ -1,0 +1,35 @@
+.btn {
+    @apply py-2 px-4 text-sm font-medium rounded;
+}
+
+.btn-prev {
+    @apply bg-gray-300 text-gray-800;
+}
+
+.btn-next {
+    @apply bg-gray-300 text-gray-800;
+}
+
+.btn-prev:hover {
+    @apply bg-gray-400;
+}
+
+.btn-next:hover {
+    @apply bg-gray-400;
+}
+
+.pagination-link {
+    @apply py-2 px-3 bg-white border border-gray-300 text-gray-500 hover:bg-gray-50;
+}
+
+.pagination-link-active {
+    @apply py-2 px-3 bg-black border border-black text-white;
+}
+.pagination-link-disabled {
+    @apply bg-gray-300 text-gray-500 cursor-not-allowed;
+}
+.outline-none {
+    outline: none;
+}
+
+
